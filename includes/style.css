@@ -1,0 +1,158 @@
+*{
+	padding: 0px;
+	margin: 0px;
+}
+header, footer, aside, nav, section, main, article{
+	display: block;
+}
+#wrapper{
+	width:1000px;
+	margin: 0px auto;
+}
+header
+{
+	height: 193px;
+	background-color: #d6d6d6;
+}
+a{
+	text-decoration: none;
+}
+#logo{
+	height: 100px;
+	background:url(../images/logo.png) center no-repeat;
+	padding-top: 47px;
+	padding-bottom: 45px;
+}
+#layout1 nav{
+	height: 19px;
+	background-color: #337ab7;
+	padding-top: 23px;
+	padding-bottom: 21px;
+}
+#layout2 nav{
+	height: 758px;
+	width: 146px;
+	background-color: #337ab7;
+	float: left;
+}
+#layout1 nav a{
+	color: #fff2ef;
+	font-size: 17px;
+	font-family:sans-serif;
+	margin-left: 32px;
+	padding: 12px 85px;
+	
+}
+#layout2 nav a{
+	color: #fff2ef;
+	font-size: 17px;
+	font-family: sans-serif;
+	display: inline-block;
+	padding: 20px 74.7px 18px 6px;
+}
+.selected{
+	background: #003748;
+}
+#layout1 main{
+	width:755px;
+	height: 696px;
+	background: #ffffff;
+	float:left;
+	
+}
+#layout2 main{
+	width: 220px;
+	height: 758px;
+	background: #eeeeee;
+	float: left;
+}
+#layout1 aside{	
+	height:696px;
+	width: 245px;
+	background: #eeeeee;
+	float:left;
+}
+#layout2 aside{
+	width: 634px;
+	height: 758px;
+	background: #ffffff;
+	float: left;
+}
+#box1{
+	margin-top: 116px;
+	height: 121px;
+	background: #62c462;
+	margin-left: 32px;
+	margin-right: 24px;
+}
+#box2{
+	position: relative;
+	background-color: #62c462;
+	height: 201px;
+	top:150px;	
+}
+#box3{
+	position: relative;
+	margin-left: 485px;
+	background-color: #62c462;	
+	height: 125px;
+	top: 230px;
+	
+}
+#box4{
+	height: 124px;
+	width: 185px;
+	margin-top: 264px;
+	background-color: #62c462;	
+	margin-left: 51px;
+	margin-right: 10px;
+	
+}
+#boxSection{
+	position: relative;
+	width: 79px;
+	height: 68px;
+	background-color: #62c462;	
+	top: 262px;
+	left: 11px;	
+}
+#boxAsideLeft{
+	position: relative;
+	width: 189px;
+	height: 510px;
+	top: 23px;
+	left: 5px;
+	background-color: #62c462;
+	
+}
+#boxAsideTopMiddle{
+	position: relative;
+	width: 189px;
+	height:324px;
+	left: 218px;
+	background-color: #62c462;
+	
+	
+}
+#boxAsideTopBottom{
+	position: relative;
+	width: 189px;
+	height:388px;
+	background-color: #62c462;
+	left: 218px;
+	top: 23px;
+}
+#boxAsideRight{
+	position: relative;
+	width: 189px;
+	height:124px;
+	background-color: #62c462;
+	left: 218px;
+}
+footer{
+	height: 50px;
+	background-color: #d6d6d6;
+	clear: both;
+}
+
+
