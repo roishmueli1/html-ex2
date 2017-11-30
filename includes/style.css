@@ -134,8 +134,6 @@ a{
 	height:324px;
 	left: 218px;
 	background-color: #62c462;
-	
-	
 }
 #boxAsideTopBottom{
 	position: relative;
@@ -152,10 +150,17 @@ a{
 	background-color: #62c462;
 	left: 218px;
 }
-footer{
+#layout1 footer{
 	height: 50px;
 	background-color: #d6d6d6;
 	clear: both;
 }
-
+#layout2 footer{
+	height: 50px;
+	width: 1000px;
+	position: fixed;
+	bottom: 0px;
+	background-color: #d6d6d6;
+	clear: both;
+}
 
