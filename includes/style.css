@@ -19,9 +19,12 @@ a{
 }
 #logo{
 	height: 100px;
+	width:100px;
 	background:url(../images/logo.png) center no-repeat;
 	padding-top: 47px;
 	padding-bottom: 45px;
+	display: block;
+	margin-left: 450px;
 }
 #layout1 nav{
 	height: 19px;
