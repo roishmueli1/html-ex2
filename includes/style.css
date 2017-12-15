@@ -23,20 +23,21 @@ a{
 	background:url(../images/logo.png) center no-repeat;
 	padding-top: 47px;
 	padding-bottom: 45px;
-	display: block;
-	margin-left: 450px;
+	position: absolute;
+	margin: 0 auto;
+	left: 0px;
+	right: 0px;
 }
+.selected{
+	background: #003748;
+}
+/*--------------------------------------------------------------------------------------------*/
+/* --Layout 1-- */
 #layout1 nav{
 	height: 19px;
 	background-color: #337ab7;
 	padding-top: 23px;
 	padding-bottom: 21px;
-}
-#layout2 nav{
-	height: 758px;
-	width: 146px;
-	background-color: #337ab7;
-	float: left;
 }
 #layout1 nav a{
 	color: #fff2ef;
@@ -44,42 +45,18 @@ a{
 	font-family:sans-serif;
 	margin-left: 32px;
 	padding: 12px 85px;
-	
-}
-#layout2 nav a{
-	color: #fff2ef;
-	font-size: 17px;
-	font-family: sans-serif;
-	display: inline-block;
-	padding: 20px 74.7px 18px 6px;
-}
-.selected{
-	background: #003748;
 }
 #layout1 main{
 	width:755px;
 	height: 696px;
 	background: #ffffff;
 	float:left;
-	
-}
-#layout2 main{
-	width: 220px;
-	height: 758px;
-	background: #eeeeee;
-	float: left;
 }
 #layout1 aside{	
 	height:696px;
 	width: 245px;
 	background: #eeeeee;
 	float:left;
-}
-#layout2 aside{
-	width: 634px;
-	height: 758px;
-	background: #ffffff;
-	float: left;
 }
 #box1{
 	margin-top: 116px;
@@ -100,7 +77,6 @@ a{
 	background-color: #62c462;	
 	height: 125px;
 	top: 230px;
-	
 }
 #box4{
 	height: 124px;
@@ -108,8 +84,41 @@ a{
 	margin-top: 264px;
 	background-color: #62c462;	
 	margin-left: 51px;
-	margin-right: 10px;
-	
+	margin-right: 10px;	
+}
+#layout1 footer{
+	height: 50px;
+	background-color: #d6d6d6;
+	clear: both;
+}
+
+/*--------------------------------------------------------------------------------------------*/
+/* --Layout 2-- */
+
+#layout2 nav{
+	height: 758px;
+	width: 146px;
+	background-color: #337ab7;
+	float: left;
+}
+#layout2 nav a{
+	color: #fff2ef;
+	font-size: 17px;
+	font-family: sans-serif;
+	display: inline-block;
+	padding: 20px 74.7px 18px 6px;
+}
+#layout2 main{
+	width: 220px;
+	height: 758px;
+	background: #eeeeee;
+	float: left;
+}
+#layout2 aside{
+	width: 634px;
+	height: 758px;
+	background: #ffffff;
+	float: left;
 }
 #boxSection{
 	position: relative;
@@ -126,7 +135,6 @@ a{
 	top: 23px;
 	left: 5px;
 	background-color: #62c462;
-	
 }
 #boxAsideTopMiddle{
 	position: relative;
@@ -150,11 +158,6 @@ a{
 	background-color: #62c462;
 	left: 218px;
 }
-#layout1 footer{
-	height: 50px;
-	background-color: #d6d6d6;
-	clear: both;
-}
 #layout2 footer{
 	height: 50px;
 	width: 1000px;
@@ -162,5 +165,69 @@ a{
 	bottom: 0px;
 	background-color: #d6d6d6;
 	clear: both;
+}
+/*--------------------------------------------------------------------------------------------*/
+/* --Layout 3-- */
+
+#layout3 nav{
+	height: 19px;
+	background-color: #337ab7;
+	padding-top: 23px;
+	padding-bottom: 21px;	
+}
+#layout3 nav a{
+	color: #fff2ef;
+	font-size: 17px;
+	font-family:sans-serif;
+	padding: 22.8px 85px 21.8px;
+	margin-left: 72px;
+}
+#layout3 footer{
+	height: 50px;
+	background-color: #d6d6d6;
+	clear: both;
+}
+.rectangles{
+	height: 350px;
+	width: 333.3px;
+	float: left;
+}
+.star{
+	width: 120px;
+	height: 110px;
+	display: none;
+	background:url(../images/white_star.png) center no-repeat;
+	position: absolute;
+	margin-left: 110px;
+	margin-top: 120px;
+}
+.plus{
+	width: 88px;
+	height: 88px;
+	display: block;
+	background:url(../images/white_plus.png) center no-repeat;
+	position: absolute;
+	margin-left: 110px;
+	margin-top: 120px;
+}
+@media only screen and (max-width:768px) {
+  /* For tablets: */
+   #wrapper {
+    width:668px;
+  }
+   #layout3 nav a{
+  	padding: 3.2% 11.5%;
+    margin-left: 1.1px;
+   } 
+}
+@media only screen and (max-width:500px) {
+  /* For mobile phones: */
+  #wrapper {
+    width:333px;
+  }
+  #layout3 nav a{
+  	padding: 6.3% 6.3%;
+   }
+  }
 }
 
